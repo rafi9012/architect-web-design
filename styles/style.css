@@ -210,8 +210,19 @@
     width: 100%;
 
   }
-
-
+  
+  .last-project{
+    background-color:#FFF4E7;
+    max-width: 1440px;
+    height: 100px;
+   
+    justify-content: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+   
+  }
+ 
  
 
  
@@ -240,12 +251,15 @@
     margin-top: 20px;
     margin-left: 20px;
    }
+   .last-project{
+    text-align: center;
+   }
   
   
  }  
  /* .medium-devices */
  @media screen and (min-width: 576px) and (max-width: 992px){
-  .teams{
+  .teams, .love-and-injoy {
     flex-direction: column;
 
   }
@@ -256,6 +270,10 @@
     margin: 50px auto;
     justify-items: center;
   }
+  #experience-badges{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
   
  }
  
